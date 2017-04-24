@@ -119,7 +119,7 @@ function inject(state, action, props, scenes) {
     case ActionConst.ANDROID_BACK: {
       if (Platform.OS === 'android') {
         try {
-          assert(state.index > 0, 'You are already in the root scene.');
+          assert(state.index > 0, 'You are already in the root scene. [Android Back]');
         } catch (e) {
           console.warn('[react-native-router-flux]', e);
           return state;
