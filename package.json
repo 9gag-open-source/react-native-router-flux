@@ -41,7 +41,7 @@
     "react": "^16.0.0-alpha.6",
     "react-addons-pure-render-mixin": "^15.5.0",
     "react-dom": "^16.0.0-alpha.6",
-    "react-native": "^0.43.3",
+    "react-native": "^0.44.0",
     "react-native-experimental-navigation": "0.26.x",
     "react-native-tabs": "^1.0.9",
     "react-static-container": "1.0.1"
